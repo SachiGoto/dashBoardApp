@@ -11,6 +11,10 @@ import {
 import CardWrapper  from '@/app/ui/dashboard/cards';
 import {Card} from '@/app/ui/dashboard/cards';
 
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
+
 export default async function DashboardPage() {
   // const revenue = await fetchRevenue();
 
